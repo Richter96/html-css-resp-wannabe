@@ -1,3 +1,9 @@
+.container {
+    width: 85%;
+}
+
+
+
 @media screen and (max-width:768px) {
     .container {
         width: 768px;
@@ -13,6 +19,11 @@
             width: 480px;
             margin: 0 auto;
             padding: 0 2rem;
+        }
+
+        .steps,
+        .why-us {
+            margin-bottom: 0;
         }
 
         .row {
@@ -40,10 +51,6 @@
             padding: 2rem 0;
         }
 
-        .steps .col {
-            width: 100%;
-        }
-
         img {
             margin-bottom: 3.5rem;
         }
@@ -56,4 +63,17 @@
         li p {
             line-height: 1.5rem;
         }
+
+        .why-us {
+            background-color: black;
+            padding-bottom: 3rem;
+        }
+    }
+
+
+
+    @media screen and (min-width:768) and (max-width:1160) {
+       .container {
+        width: 80%;
+       }
     }
